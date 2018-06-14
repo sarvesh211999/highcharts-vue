@@ -1,12 +1,15 @@
 <template>
   <div>
-    <vue-highcharts :options="options" ref="lineCharts"></vue-highcharts>
-    <button @click="load">load</button>
+    <one :options="options"></one>
+    <two :options="options"></two>
+
   </div>
 </template>
 
 <script>
-import VueHighcharts from 'vue2-highcharts'
+import one from 'vue2-highcharts'
+import two from 'vue2-highcharts'
+
 const asyncData = {
   name: 'Tokyo',
   marker: {
@@ -21,7 +24,8 @@ const asyncData = {
 }
 export default{
     components: {
-        VueHighcharts
+        one,
+        two
     },
     data(){
       return{
@@ -43,41 +47,17 @@ export default{
             title: {
               text: 'Temperature'
             },
-            labels: {
-              formatter: function () {
-                return this.value + '°';
-              }
-            }
           },
-          tooltip: {
-            crosshairs: true,
-            shared: true
-          },
-          credits: {
-            enabled: false
-          },
-          plotOptions: {
-            spline: {
-              marker: {
-                radius: 4,
-                lineColor: '#666666',
-                lineWidth: 1
-              }
-            }
-          },
-          series: []
+          series: [{
+            name: 'Jane',
+            data: [1, 0, 4]
+          }, {
+            name: 'John',
+            data: [1 ,1 ,1, 1 ,1 ,1, 1 ,1 ,3, 1 ,2 ,3]
+          }]
         }
       }
     },
-    methods: {
-      load(){
-          let lineCharts = this.$refs.lineCharts;
-          lineCharts.delegateMethod('showLoading', 'Loading...');
-          setTimeout(() => {
-              lineCharts.addSeries(asyncData);
-              lineCharts.hideLoading();
-          }, 2000)
-      }
-    }
+
 };
 </script>
