@@ -15,6 +15,6 @@
 
 Type | Description | Owner | Deadline
 ---- | ---- | ---- | ----
-D | #DESCRIPTION# | - | -
+D | Set VLead Project on your machine | - | -
 T | #DESCRIPTION# | #OWNER# | #DEADLINE#
-I | #DESCRIPTION# | - | -
+I | VLead Experiments were explained and were demonstrated| - | -
