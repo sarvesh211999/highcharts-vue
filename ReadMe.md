@@ -8,9 +8,9 @@
 ### Time : 16:30
 ### Topic: First Client Meet
 ### Attendees:
-* ##Sarvesh Mehta##
-* ##Himanshu Maheshwari##
-* ##Ayush Shivani##	
+* Sarvesh Mehta
+* Himanshu Maheshwari
+* Ayush Shivani	
 
 
 Type | Description | Owner | Deadline
