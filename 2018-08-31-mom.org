@@ -1,0 +1,70 @@
+#+TITLE: Minutes of the meeting 
+#+AUTHOR: VLEAD
+#+DATE: [2018-08-31 Fri]
+#+SETUPFILE: ./org-templates/level-0.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+* Introduction
+ Here are the minutes of meeting held on 31st August:
+
+* Duration
+ From 11:30 to 12:30 PM
+
+* Attendees
+  - Mrityunjay Sir
+  - Priya Ma'am
+  - All SSAD Members (12)  
+  - Sadhana Ma'am
+
+* Agenda
+   - To present what we have done the previous week.
+   - To discuss the aim of this week.
+
+* Linked list
+** Discussions
+
+  - The issues solved in the previous week was presented. 
+  - Files were converted to literate programming.
+  - Files which were not responsive were converted to responsive.
+  - Discussed about which branch to use.
+
+** Actions
+
+  - To integrate the develop branch into the catalogue service.
+  - Sadhana Ma'am will provide instructions about cloning everyday.
+  - Create a seperate Slack channel for git notifications.
+  - We have to finish responsive design integration.
+  - Our team should have catalogue service installed.
+  - Our temp should have testing artifacts rendering in the shell for the linked list experiment.
+  - Start thinking about demo video artifacts.
+  - Thinking about making CSS common.
+  
+* Stacks and Queues
+** Discussions
+- The work done in the previous week
+- Catalog Service
+- Infrastructure set up
+- Emacs org files and tangling
+- Sketch files for design
+
+** Actions
+- Solving the issues brought up
+- Set up latest infra
+- Fix unresponsive artefacts
+- Integrate common CSS file
+- Fix buttons 
+
+* Infix to Postfix
+** Discussions
+    - The work done in the previous week
+    - New issues opened
+    - Issues closed
+    - Setting up the catalog service
+    - Update to the latest infra
+** Actions
+    - New milestone to be created every week
+    - Add issues to the milestone
+    - Having a common CSS
+    - Fix bugs in code that doesnt get displayed while rendering
