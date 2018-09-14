@@ -1,0 +1,63 @@
+#+TITLE: Minutes of the meeting 
+#+AUTHOR: VLEAD
+#+DATE: [2018-09-14 Fri]
+#+SETUPFILE: ./org-templates/level-0.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+* Introduction
+ Here are the minutes of meeting held on 14th of Sept 2018
+
+* Duration
+ From 11:30 to 12:30 PM
+
+* Attendees
+  - Mrityunjay Sir
+  - Priya Ma'am
+  - All SSAD Members (12)  
+  - Pavan
+  - Mayanak Modi
+
+* Agenda
+   - To present what we have done the previous week.
+   - To discuss the aim of this week.
+
+* Linked list
+** Discussions
+** Actions
+  
+* Stacks and Queues
+** Discussions
+** Actions
+
+* Infix to Postfix
+** Discussions
+- Presented the experiment run from local server.
+- Discussed on the work done in the last two weeks.
+- On the issues where images and arifacts are not loading when run from the catalog server.
+- Discussed with the infra team on rendering.
+** Actions
+- Created milestone for week 4 containing issues to be solved.
+- Make the second artefact responsive.
+- Properly render all the artifacts from local machine
+- Make sure the first artifact is responsive in local machine.
+- Fix all bugs in artifact 2.
+* Heap Sort
+** Discussions
+- Presented the experiment run from local server.
+- Discussed on the work done in the last two weeks.
+- Discussed about demos and push issues into gitlab (assigning milestone)
+- Take Common artefacts from others
+
+** Actions
+  - Create artefacts 
+    - Insert Artefact
+      - Responsive + UI Design
+    - Extract Max Artefact
+      - Responsive + UI Design
+    - Rebuild 
+      - Responsive + UI Design  
+* Hash Tables
+** Discussions
+** Actions
